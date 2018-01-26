@@ -8,9 +8,11 @@
           <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3 header-title"><strong>РУССКИЙ МЕНЕДЖМЕНТ. БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-3 header-title d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-5 header-title d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
+        <a href="#" class="btn btn-primary text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
       </div>
     </div>
 
@@ -436,7 +438,7 @@
         </div>
       </div>
 
-      <div class="row text-center">
+      <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
         </div>
@@ -448,43 +450,6 @@
           />
         </div>
       </div>
-
-      <!-- <div class="row anapa-block-bg">
-        <div class="col-md-3 d-none d-md-block">&nbsp;</div>
-        <div class="col-md-9 anapa-block d-none d-md-block">
-          <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
-          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col anapa-block d-md-none">
-          <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
-          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
-        </div>
-      </div>
-      <div class="row last-row">
-        <div class="col">
-          <div class="collapse" id="collapseExample">
-            <div class="card">
-              <div class="card-header-anapa text-light">
-                <h4>Для участников онлайн Марафона проводится Мастерская управления Русский Менеджмент 26-29 апреля в&nbsp;г. Анапа.</h4>
-              </div>
-              <div class="card-body">
-                <h6>В&nbsp;программе Мастерской управления:</h6>
-                <ul>
-                  <li>Жесткие разборы управленческих команд, выявление слабых мест в&nbsp;ведении дел и&nbsp;выработка решений по&nbsp;совершенствованию.</li>
-                  <li>Анализ стратегий участников. Выработка сильных стратегических решений.</li>
-                  <li>Изучение практики совершенствования бизнес-процессов, анализ ошибок. Отработка эффективных методов управления процессами.</li>
-                  <li>Опыт преобразования корпоративной культуры, изучение успешных подходов к культивированию позитивных ценностей.</li>
-                  <li>Практика построения эффективных управленческих команд. Отработка методов коллективной работы.</li>
-                </ul>
-                <p>Участники Мастерской в&nbsp;ходе интенсивной 4-дневной работы закрепят навыки системного управления, полученные в&nbsp;ходе Марафона.</p>
-                <p>Мастерская запустит необратимый процесс изменений, ведущих к&nbsp;улучшению управляемости и&nbsp;повышению эффективности компаний.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
     </div>
   </div>
