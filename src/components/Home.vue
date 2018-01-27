@@ -513,4 +513,16 @@ h2 {
 .logo {
   margin-bottom: 20px;
 }
+
+
+@media (max-width: 767.98px) {
+  .header-title {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 575.98px) {
+  .header-title {
+    margin-top: 30px;
+  }
+}
 </style>
